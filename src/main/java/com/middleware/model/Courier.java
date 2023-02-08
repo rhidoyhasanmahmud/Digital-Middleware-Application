@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Courier{
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -23,6 +22,8 @@ public class Courier{
 
     @Column(name = "name", unique = true)
     public String name;
+
+    public Boolean isActive;
 
     @Setter(value = AccessLevel.PRIVATE)
     public LocalDateTime updatedAt;

@@ -1,10 +1,7 @@
 package com.middleware.model;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javax.persistence.*;
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "mw_history")
@@ -17,23 +14,19 @@ public class History {
     @Column(name = "action_name")
     public String actionName;
 
-    @Column(name = "user_id")
-    public Integer userId;
-
-    @Column(name = "request_body")
     @Lob
-    public String requestBody;
+    public String resultBody;
 
-    @Column(name = "time")
-    public Timestamp time;
+    public LocalDateTime logTime;
 
-    @Column(name = "ip_address")
-    public String ipAddress;
+    @Column(name = "userName")
+    public String userName;
+
 
     @PrePersist
     @PreUpdate
     private void preUpdate() {
-        this.time = new Timestamp(System.currentTimeMillis());
+        this.logTime = LocalDateTime.now();
     }
 
     @Override
@@ -41,9 +34,9 @@ public class History {
         return "History{" +
                 "id=" + id +
                 ", actionName='" + actionName + '\'' +
-                ", userId=" + userId +
-                ", requestBody='" + requestBody + '\'' +
-                ", time=" + time +
+                ", userName=" + userName +
+                ", resultBody='" + resultBody + '\'' +
+                ", logTime=" + logTime +
                 '}';
     }
 }

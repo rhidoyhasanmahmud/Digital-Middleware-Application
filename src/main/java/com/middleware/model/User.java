@@ -14,26 +14,23 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     public Integer id;
 
-    @Column(name = "name")
+    public String userName;
+
     public String name;
 
-    @Column(name = "email")
     public String email;
 
-    @Column(name = "password")
     public String password;
 
-    @Column(name = "is_active")
     public Integer isActive;
 
-    @Column(name = "password_try_count")
-    public Integer passwordTryCount;
+    public Integer totalDataPullCount;
 
-    @Column(name = "account_locked")
     public Integer accountLocked;
+
+    public LocalDateTime lastDataPull;
 
     @Setter(value = AccessLevel.PRIVATE)
     public LocalDateTime updatedAt;
