@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 
 @Data
 public class CourierPrice {
-    public String rate;
+    public Double rate;
 
     public String name;
 }
