@@ -45,7 +45,7 @@ This project has the following features-
 
 ![USER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Backend/main/images/USER_TABLE.PNG)
 
-> 2. MW_HISTORY : Logging All User Request details with Time.
+> 2. MW_HISTORY : Logging All User Request details with Time. Beside this manage file base log. 
 
 ![HISTORY_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Backend/main/images/HISTORY_TABLE.PNG)
 
