@@ -4,7 +4,7 @@ A simple Middleware Application with Java and Spring Boot.
 
 ## High Level Design
 
-![USER_TABLE](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/Middleware_Application_High_Level_Design.PNG)
+![USER_TABLE](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/Middleware_Application_High_Level_Design.PNG)
 
 ## Installation
 
@@ -43,23 +43,23 @@ This project has the following features-
 
 > 1. MW_USER : Manage all Authenticate User Information.
 
-![USER_TABLE](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/USER_TABLE.PNG)
+![USER_TABLE](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/USER_TABLE.PNG)
 
 > 2. MW_HISTORY : Logging All User Request details with Time.
 
-![HISTORY_TABLE](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/HISTORY_TABLE.PNG)
+![HISTORY_TABLE](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/HISTORY_TABLE.PNG)
 
 > 3. MW_COURIER : Courier-Rate Details Information. Load data through Scheduler and have manual process for sync
      realtime data.
 
-![COURIER_TABLE](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/COURIER_TABLE.PNG)
+![COURIER_TABLE](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/COURIER_TABLE.PNG)
 
 ## Swagger UI
 
-![Swagger UI](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/Swagger-UI.PNG)
+![Swagger UI](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/Swagger-UI.PNG)
 
 ## Postman UI
-![Postman UI](https://github.com/CodeMechanix/Digital-Backend/blob/master/images/Postman-UI.PNG)
+![Postman UI](https://github.com/CodeMechanix/Digital-Backend/tree/main/images/Postman-UI.PNG)
 
 ## Developer
 
