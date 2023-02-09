@@ -20,7 +20,23 @@ mvn spring-boot:run
 
 Then you need to put your database credentials in the application-dev.yml file. I used PostgreSQL in this project.
 
-Then you can visit the base url in this url- `http://localhost:7007/v1`.
+Then you can visit the base url in this url- `http://localhost:7007/`.
+
+## Docker Image Build
+
+```text
+# Build the Docker image using the following command:
+
+docker build -t middleware .
+
+# Once the image is built, run a container using the following command:
+
+docker run -p 7007:7007 middleware
+
+This will start a container and map port 7007 on the host to port 7007 in the container, making the Spring Boot application accessible on http://localhost:7007.
+```
+
+
 
 ## Uses
 
