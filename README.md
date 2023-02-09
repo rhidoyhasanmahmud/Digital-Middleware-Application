@@ -4,7 +4,7 @@ A simple Middleware Application with Java and Spring Boot.
 
 ## High Level Design
 
-![USER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/Middleware_Application_High_Level_Design.PNG?token=GHSAT0AAAAAAB2DE37FEU26LE6FCTUL5VBSY7EDCUQ)
+![HLD](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/Middleware_Application_High_Level_Design.PNG)
 
 ## Installation
 
@@ -59,23 +59,23 @@ This project has the following features-
 
 > 1. MW_USER : Manage all Authenticate User Information.
 
-![USER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/USER_TABLE.PNG?token=GHSAT0AAAAAAB2DE37FA26JW4DX57QPUAFEY7EDDQQ)
+![USER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/USER_TABLE.PNG)
 
 > 2. MW_HISTORY : Logging All User Request details with Time. Beside this manage file base log. 
 
-![HISTORY_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/HISTORY_TABLE.PNG?token=GHSAT0AAAAAAB2DE37FWU6A7ZG4N7ELHPAKY7EDCJQ)
+![HISTORY_TABLE](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/COURIER_TABLE.PNG)
 
 > 3. MW_COURIER : Courier-Rate Details Information. Load data through Scheduler and have manual process for sync
-     realtime data.
+     realtime data. Courier Service easily active/Inactive as per demand. 
 
-![COURIER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/COURIER_TABLE.PNG?token=GHSAT0AAAAAAB2DE37FJEZADGX3JCLRSDZ4Y7EDBGA)
+![COURIER_TABLE](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/COURIER_TABLE.PNG)
 
 ## Swagger UI
 
-![Swagger UI](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/Swagger-UI.PNG?token=GHSAT0AAAAAAB2DE37EZYTOH42PSSTT5NGMY7EDDIQ)
+![Swagger UI](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/Swagger-UI.PNG)
 
 ## Postman UI
-![Postman UI](https://raw.githubusercontent.com/CodeMechanix/Digital-Middleware-Backend/main/images/Postman-UI.PNG?token=GHSAT0AAAAAAB2DE37F6LLYVSIHUXRZG4NAY7EDC7Q)
+![Postman UI](https://raw.githubusercontent.com/CodeMechanix/Master-API-terminology/main/images/Postman-UI.PNG)
 
 ## Developer
 
